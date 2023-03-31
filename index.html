@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Daniil Goncharov</title>
+</head>
+<body class="page">
+  <div class="content">
+    <header class="header">
+      <div class="logo"></div>
+      <div class="lang-menu">
+        <button class="lang-menu__btn ruBtn" value="ru">RU</button>
+        <button class="lang-menu__btn enBtn" value="en">EN</button>
+      </div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list__item"><a class="lng-menu-main" href="#">Главная</a></li>
+          <li class="menu-list__item"><a class="lng-menu-about" href="#about">Кто я</a></li>
+          <li class="menu-list__item"><a class="lng-menu-projects" href="#projects">Мои проекты</a></li>
+          <li class="menu-list__item"><a class="lng-menu-contact" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__about">
+          <h1 class="hero__title lng-name _anim-items _anim-no-hide">Даниил Гончаров</h1>
+          <h2 class="hero__subtitle lng-job _anim-items _anim-no-hide">Веб-разработчик</h2>
+          <p class="hero__description lng-short-description _anim-items _anim-no-hide">Привет! Я веб-разработчик, занимаюсь версткой адаптивных сайтов. Хорошо знаю Java Script и React.</p>
+        </div>
+        <div class="hero__box">
+          <img class="hero__box-img"
+            srcset="./images/Portret-682w.png 900w,
+                  ./images/Portret-1552w.png 1552w"
+            src="./images/Portret-1552w.png" alt="Мое фото">
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about__container _anim-items _anim-no-hide">
+        <h2 class="about__title lng-about _anim-items _anim-no-hide">Обо мне</h2>
+        <p class="about__description lng-long-description-one _anim-show _anim-no-hide">Родился в Москве. В 2012 году закончил Российский Государственный Гуманитарный Университет по специальности социальная психология.
+          10 лет работал в сфере развития и обучения персонала. Разрабатывал и проводил учебные курсы, тренинги, дистанционные он-лайн курсы.
+          В 2021 году перешел работать в IT стартап где занимался «Управлением знаниями», а именно писал документацию для разработчиков по софту,
+          который разрабатывала компания. Организовал учебный портал для хранения этой информации и для этого начал изучать html верстку.
+        </p>
+        <p class="about__description lng-long-description-two _anim-show _anim-no-hide">В 2022 году решил, что хочу полностью посветить себя разработке сайтов и начал учиться на Веб-разработчика
+          на курсах Яндекс Практикум.
+        </p>
+      </div>
+      <div class="about__container _anim-items">
+        <h2 class="about__title lng-skills _anim-items">Мои навыки</h2>
+        <ul class="grid__skills">
+          <li class="grid__skills-item neonText_color_red _anim-items">HTML5</li>
+          <li class="grid__skills-item neonText_color_blue _anim-items">CSS</li>
+          <li class="grid__skills-item neonText_color_yellow _anim-items">Java Script</li>
+          <li class="grid__skills-item neonText_color_cyan _anim-items">React</li>
+          <li class="grid__skills-item neonText_color_green _anim-items">NODE.JS</li>
+          <li class="grid__skills-item neonText_color_gray _anim-items">JSON</li>
+          <li class="grid__skills-item neonText_color_orange-red _anim-items">GIT</li>
+          <li class="grid__skills-item neonText_color_purple _anim-items">Figma</li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="section__title lng-projects _anim-items">Мои проекты</h2>
+      <div class="my-projects__container _anim-items">
+        <div class="sidebar">
+          <div style="background: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);">
+            <h3 class="my-projects__title lng-how-to-learn">Научиться учиться</h1>
+            <a class="my-projects__link lng-view-website-1" href="https://daniel-goncharov.github.io/how-to-learn/" target="_blank">Посмотреть сайт &nbsp; &rarr;</a>
+          </div>
+          <div style="background: linear-gradient(to top, #2f2c2c 0%, #0b5c4c 100%);">
+            <h3 class="my-projects__title lng-russian-travel">Путишествие по России</h3>
+            <a class="my-projects__link lng-view-website-2" href="https://daniel-goncharov.github.io/russian-travel/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+          <div style="background: linear-gradient(to bottom, #0250c5 0%, #d43f8d 100%);">
+            <h3 class="my-projects__title lng-aim-training">игра "Тренировка меткости"</h3>
+            <a class="my-projects__link lng-view-website-4" href="https://daniel-goncharov.github.io/Aim-Training-game/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+          <div style="background: linear-gradient(60deg, #171a1d 0%, #373d43 100%);">
+            <h3 class="my-projects__title lng-mesto">проект Место</h3>
+            <a class="my-projects__link lng-view-website-3" href="https://daniel-goncharov.github.io/mesto-react/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+        </div>
+        <div class="main-slide">
+          <div
+          class="my-projects_type_mesto"
+            style="
+              background-image: url('./images/mesto.png');
+            "
+          ></div>
+          <div
+            class="my-projects_type_aim-training"
+            style="
+              background-image: url('./images/aim-trainig.png');
+            "
+          ></div>
+          <div
+          class="my-projects_type_russian-travel"
+            style="
+              background-image: url('./images/russian-travel.png');
+            "
+          ></div>
+          <div
+          class="my-projects_type_how-to-learn"
+            style="
+              background-image: url('./images/how-to-learn.png');
+            "
+          ></div>
+        </div>
+        <div class="controls">
+          <button class="down-button">
+            <i class="arrow down"></i>
+          </button>
+          <button class="up-button">
+            <i class="arrow up"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <h2 class="lng-contact">Мои контакты</h2>
+      <ul class="contact">
+        <li>
+          <a class="contact__container" href="https://www.linkedin.com/in/daniil-goncharov-862142aa/" target="_blank">
+            <div class="contact__icon_type_linkedin"></div>
+            <p class="contact__link lng-linkedin">Моя страница в Linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a class="contact__container" href="https://t.me/DanielGDrive" target="_blank">
+            <div class="contact__icon_type_telegram"></div>
+            <p class="contact__link lng-telegram">Мой Telegram</p>
+          </a>
+        </li>
+        <li class="contact__container">
+          <div class="contact__icon_type_email"></div>
+          <p class="contact__link">goncharov10d@gmail.com</p>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="./utils/constants.js"></script>
+  <script src="./pages/index.js"></script>
+</body>
+</html>
